@@ -13,13 +13,13 @@ fwrite($stdout,'hi this is content write to the std output stream') ;
 
 fclose($stdout) ;
 
-// ±ê×¼´íÎóÁ÷
+// æ ‡å‡†é”™è¯¯æµ
 
 $stderr = fopen('php://stderr','w');
 fwrite($stderr,PHP_EOL.'error write to the std err') ;
 fclose( $stderr) ;
 
-// ÓÃ³£Á¿´úÌæ
+// ç”¨å¸¸é‡ä»£æ›¿
 echo str_repeat(PHP_EOL,2) ;
 fwrite(STDERR,'write to the std error '.PHP_EOL) ;
 fwrite(STDOUT,'write to the std out ') ;

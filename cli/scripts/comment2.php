@@ -6,7 +6,7 @@
  * Time: 9:45
  */
 /**
- * ½âÎö ÊäÈë²ÎÊý £º php myscript.php --user=nobody --password=secret -p --access="host=127.0.0.1 port=456"
+ * è§£æž è¾“å…¥å‚æ•° ï¼š php myscript.php --user=nobody --password=secret -p --access="host=127.0.0.1 port=456"
  */
 ?>
 <?php
@@ -23,7 +23,7 @@ function arguments($argv) {
     return $_ARG;
 }
 
-// µ÷ÓÃ
+// è°ƒç”¨
 $inputs = arguments($argv) ;
 
 print_r([

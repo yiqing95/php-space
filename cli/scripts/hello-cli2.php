@@ -6,14 +6,14 @@
  * Time: 8:02
  */
 /**
- * ×¨ÓÃ³£Á¿
+ * ä¸“ç”¨å¸¸é‡
  */
 ?>
 
 <?php
 $stdin = fopen('php://stdin','r') ;
 
-//  ¶ÁÈ¡ÄÚÈÝ
+//  è¯»å–å†…å®¹
 $line = trim(fgets($stdin)) ;
 
 print_r([
@@ -21,7 +21,7 @@ print_r([
     $line,
 ]);
 
-// ¶ÁÈ¡³£Á¿  µÈ¼ÛÉÏÃæµÄÄÄ¸östdin ±äÁ¿£¿
+// è¯»å–å¸¸é‡  ç­‰ä»·ä¸Šé¢çš„å“ªä¸ªstdin å˜é‡ï¼Ÿ
 $line = trim(fgets(STDIN)) ;
 print_r(
     [

@@ -1,26 +1,26 @@
-push²»µ½github 
+pushä¸åˆ°github 
 ============
 
-ÍøÉÏËÑË÷ÏÂ 
+ç½‘ä¸Šæœç´¢ä¸‹ 
 
 
-½â¾ö·½°¸£º
+è§£å†³æ–¹æ¡ˆï¼š
 [http://blog.csdn.net/robertsong2004/article/details/38225933](http://blog.csdn.net/robertsong2004/article/details/38225933
 )
 >
-    2014-07-28 10:49 1799ÈËÔÄ¶Á ÆÀÂÛ(0) ÊÕ²Ø ¾Ù±¨
+    2014-07-28 10:49 1799äººé˜…è¯» è¯„è®º(0) æ”¶è— ä¸¾æŠ¥
     
-    ÎÊÌâÃèÊö£º
+    é—®é¢˜æè¿°ï¼š
     
     $ git push
     
     error: The requested URL returned error: 403 Forbidden while accessing
     
-    ½â¾ö·½°¸£º
+    è§£å†³æ–¹æ¡ˆï¼š
     
-    ÕâÊÇÈ¨ÏŞÎÊÌâ£¬¿ÉÒÔĞŞ¸Ä.git/configÎÄ¼ş×·¼ÓÓÃ»§ÃûºÍÃÜÂë
+    è¿™æ˜¯æƒé™é—®é¢˜ï¼Œå¯ä»¥ä¿®æ”¹.git/configæ–‡ä»¶è¿½åŠ ç”¨æˆ·åå’Œå¯†ç 
     
-    ÏêÏ¸£º
+    è¯¦ç»†ï¼š
     
     From:http://stackoverflow.com/questions/7438313/pushing-to-git-returning-error-code-403-fatal-http-request-failed
     

@@ -11,6 +11,7 @@
   ],
   "require": {
     "league/event": "^2.1"
-    ,"wp-cli/php-cli-tools":"*"
+    ,"wp-cli/php-cli-tools":"*",
+    "league/fractal": "^0.12.0"
   }
 }

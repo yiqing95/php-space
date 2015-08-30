@@ -1,0 +1,16 @@
+{
+  "name": "yiqing95/php-space",
+  "description": "this is my study project for leaning php techs",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "yiqing",
+      "email": "yiqing95@qq.com"
+    }
+  ],
+  "require": {
+    "league/event": "^2.1"
+    ,"wp-cli/php-cli-tools":"*"
+  }
+}

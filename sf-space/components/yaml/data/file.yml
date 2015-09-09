@@ -1,0 +1,6 @@
+"symfony 1.0":
+  PHP:    5.0
+  Propel: 1.2
+"symfony 1.2":
+  PHP:    5.2
+  Propel: 1.3

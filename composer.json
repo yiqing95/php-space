@@ -14,5 +14,7 @@
     ,"wp-cli/php-cli-tools":"*",
     "league/fractal": "^0.12.0",
     "dingo/api": "^0.10.0"
+
+    ,"symfony/symfony":"*"
   }
 }

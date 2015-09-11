@@ -16,5 +16,6 @@
     "dingo/api": "^0.10.0"
 
     ,"symfony/symfony":"*"
+    ,"yiisoft/yii2":"dev-master"
   }
 }

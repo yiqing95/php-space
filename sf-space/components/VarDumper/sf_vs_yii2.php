@@ -32,3 +32,27 @@ $inputData = [
 Symfony\Component\VarDumper\VarDumper::dump($inputData) ;
 
 \yii\helpers\VarDumper::dump($inputData) ;
+
+
+class PropertyExample
+{
+    public $publicProperty = 'The `+` prefix denotes public properties,';
+    protected $protectedProperty = '`#` protected ones and `-` private ones.';
+    private $privateProperty = 'Hovering a property shows a reminder.';
+}
+
+$var = new PropertyExample();
+Symfony\Component\VarDumper\VarDumper::dump($var) ;
+
+\yii\helpers\VarDumper::dump($var) ;
+
+class ReferenceExample
+{
+    public $info = "Circular and sibling references are displayed as `#number`.\nHovering them highlights all instances in the same dump.\n";
+}
+$var = new ReferenceExample();
+$var->aCircularReference = $var;
+
+Symfony\Component\VarDumper\VarDumper::dump($var) ;
+
+\yii\helpers\VarDumper::dump($var) ;

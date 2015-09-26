@@ -17,5 +17,7 @@
 
     ,"symfony/symfony":"*"
     ,"yiisoft/yii2":"dev-master"
+
+    ,"phpseclib/phpseclib":"*"
   }
 }

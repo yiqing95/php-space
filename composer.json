@@ -19,5 +19,6 @@
     ,"yiisoft/yii2":"dev-master"
 
     ,"phpseclib/phpseclib":"*"
+    ,"zircote/swagger-php":"*"
   }
 }

@@ -23,11 +23,13 @@ autoloadVendor() ;
 
 $loader = new \Composer\Autoload\ClassLoader();
 // $loader->addPsr4('MyClass',__DIR__.'/my-classes');
+// 注册自己的根名空间目录
 $loader->addPsr4('MyClass\\',__DIR__.'/my-classes');
 $loader->register() ;
 
 ?>
 <?php
+
 $myObj = new \MyClass\ClassA() ;
 $myObj->hello() ;
 

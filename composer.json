@@ -9,6 +9,12 @@
       "email": "yiqing95@qq.com"
     }
   ],
+  "repositories":[
+    {
+      "type":"vcs",
+      "url":"https://github.com/lovenunu/sql-runner"
+    }
+  ],
   "require": {
     "league/event": "^2.1"
     ,"wp-cli/php-cli-tools":"*",
@@ -20,5 +26,8 @@
 
     ,"phpseclib/phpseclib":"*"
     ,"zircote/swagger-php":"*"
+
+    ,"fusonic/linq": "@dev"
+    , "lovenunu/sql-runner":"@dev"
   }
 }

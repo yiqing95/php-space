@@ -6,10 +6,9 @@
  * Time: 21:08
  */
 /**
- * + ===============================================================================|
- *                        此server 搭配的client.html 文件运行哦！
- *
- * + ===============================================================================|
+ * 此脚本 可以在
+ *             >  telnet localhost 8080
+ * 多个client 连接下互相发送消息！
  */
 // 禁用xdebug 扩展
 if(function_exists('xdebug_disable')) {
@@ -26,18 +25,12 @@ $loader->addPsr4('MyApp\\',__DIR__.'/myapp');
 $loader->register() ;
 
 use Ratchet\Server\IoServer;
-use Ratchet\Http\HttpServer;
-use Ratchet\WebSocket\WsServer;
 use MyApp\Chat;
 
-//require dirname(__DIR__) . '/vendor/autoload.php';
+// require dirname(__DIR__) . '/vendor/autoload.php';
 
 $server = IoServer::factory(
-    new HttpServer(
-        new WsServer(
-            new Chat()
-        )
-    ),
+    new Chat(),
     8080
 );
 

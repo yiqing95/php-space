@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <script>
+        var conn = new WebSocket('ws://localhost:8080');
+        conn.onopen = function(e) {
+            console.log("Connection established!");
+
+            // 也可以在firebug 等console下输入命令哦！
+            conn.send('Hello World!');
+
+        };
+
+        conn.onmessage = function(e) {
+            console.log(e.data);
+        };
+    </script>
 </head>
 <body>
 

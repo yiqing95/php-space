@@ -1,0 +1,164 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ef9fd3d2729674ea5c86a8026399b300",
+    "content-hash": "72dc7076ff5a47f32f632ebb90688374",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "unionofrad/lithium",
+            "version": "v1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UnionOfRAD/lithium.git",
+                "reference": "51aaf1d1d6943b673f0911a81b9db18f68396bda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UnionOfRAD/lithium/zipball/51aaf1d1d6943b673f0911a81b9db18f68396bda",
+                "reference": "51aaf1d1d6943b673f0911a81b9db18f68396bda",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*",
+                "php": ">=5.3.6"
+            },
+            "require-dev": {
+                "unionofrad/li3_fixtures": "1.0.*@RC"
+            },
+            "bin": [
+                "console/li3"
+            ],
+            "type": "lithium-library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Union of RAD"
+                },
+                {
+                    "name": "The Community"
+                }
+            ],
+            "description": "The core library of the Lithium PHP framework",
+            "homepage": "http://li3.me",
+            "keywords": [
+                "framework",
+                "li3",
+                "lithium"
+            ],
+            "time": "2015-09-05 14:21:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "unionofrad/lithium": 5
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.6"
+    },
+    "platform-dev": []
+}

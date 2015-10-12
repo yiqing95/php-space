@@ -28,6 +28,9 @@
     ,"zircote/swagger-php":"*"
 
     ,"fusonic/linq": "@dev"
-    , "lovenunu/sql-runner":"@dev"
+    , "lovenunu/sql-runner":"@dev",
+    "cboden/ratchet": "^0.3.3",
+    "slim/slim": "^2.6"
+
   }
 }

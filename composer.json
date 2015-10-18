@@ -32,5 +32,6 @@
     "cboden/ratchet": "^0.3.3",
     "slim/slim": "^2.6"
 
+    ,"danielmewes/php-rql":"*"
   }
 }

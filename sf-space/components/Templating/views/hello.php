@@ -8,3 +8,12 @@
 ?>
 
 Hello , <?php echo $firstname ?> !
+
+
+<?php $names = array('Fabien', 'yiqing') ?>
+<?php foreach ($names as $name) : ?>
+    <?php echo $view->render('_part.php', array('firstname' => $name)) ?>
+<?php endforeach ?>
+
+gloable var：
+<p>The google tracking code is: <?php echo $ga_tracking ?></p>

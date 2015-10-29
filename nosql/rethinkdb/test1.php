@@ -22,7 +22,7 @@ $host = '192.168.66.128' ; // localhost
 $conn = r\connect($host);
 
 // Create a test table
-// r\db("test")->tableCreate("tablePhpTest")->run($conn);
+ r\db("test")->tableCreate("tablePhpTest")->run($conn);
 
 // Insert a document
 $document = array('someKey' => 'someValue');
@@ -48,4 +48,4 @@ foreach ($result as $doc) {
 }
 
 // Delete the test table
-r\db("test")->tableDrop("tablePhpTest")->run($conn);
+// r\db("test")->tableDrop("tablePhpTest")->run($conn);

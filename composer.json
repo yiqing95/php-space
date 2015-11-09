@@ -47,6 +47,8 @@
     "rmccue/requests": "^1.6",
     "coderkungfu/php-queue": "^0.9.1",
     "influxdb/influxdb-php": "dev-master"
+
+    ,"linkorb/etcd-php":"*"
     
   }
 }

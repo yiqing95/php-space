@@ -71,7 +71,24 @@ $message = 'There {n, plural, =0{are no cats}
 echo \MessageFormatter::formatMessage('en_US', $message, ['n' => 1]);
 // There is one cat!
 
+/**
+ * ## ------------------------------------------------------------------------------  ##
+ *                                   Using  yii
+ *
+ */
 UsingYii() ;
 
 echo \Yii::t('app', 'You are the {n, ordinal} visitor here!', ['n' => 42]);
 // You are the 42nd visitor here!
+
+echo \Yii::t('app', '{name} is a {gender} and {gender, select, female{she}
+    male{he} other{it}} loves Yii!', [
+    'name' => 'Snoopy',
+    'gender' => 'dog',
+]);
+// Snoopy is a dog and it loves Yii!
+
+
+$message = 'There {0, plural, =0{are no cats}
+            =1{is one cat} other{are # cats}} except {1}!';
+echo \MessageFormatter::formatMessage('en_US', $message, [1, 'Simon']);

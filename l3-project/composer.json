@@ -15,6 +15,8 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.3.6",
-        "unionofrad/lithium": "1.0.*@RC"
+        "unionofrad/lithium": "1.0.*@RC",
+        "phpixie/debug": "^3.1",
+        "phpixie/project": "^3.2"
     }
 }

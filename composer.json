@@ -15,6 +15,14 @@
       "url":"https://github.com/lovenunu/sql-runner"
     }
   ],
+
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "require-dev": {
+    "behat/behat": "~2.5"
+  },
+
   "require": {
     "league/event": "^2.1"
     ,"wp-cli/php-cli-tools":"*",

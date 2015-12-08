@@ -30,7 +30,7 @@
     "dingo/api": "^0.10.0"
 
     ,"symfony/symfony":"*"
-    ,"yiisoft/yii2":"dev-master"
+    ,"yiisoft/yii2":"*"
 
     ,"phpseclib/phpseclib":"*"
     ,"zircote/swagger-php":"*"
@@ -48,7 +48,25 @@
     "coderkungfu/php-queue": "^0.9.1",
     "influxdb/influxdb-php": "dev-master"
 
-    ,"linkorb/etcd-php":"*"
-    
-  }
+    ,"linkorb/etcd-php":"*",
+
+    "phpfastcache/phpfastcache":"*"
+
+    , "chrisboulton/php-resque": "1.2.x",
+    "monolog/monolog": "^1.17",
+    "funct/funct": "^1.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "codeception/codeception": "2.0.*",
+    "codeception/specify": "*",
+    "codeception/verify": "*",
+
+    "codegyre/robo": "*"
+  },
+
+  "minimum-stability": "alpha",
+  "prefer-stable": true
 }

@@ -45,7 +45,6 @@
     , "nategood/httpful": "*"
     , "kriswallsmith/buzz" : "*",
     "rmccue/requests": "^1.6",
-    "coderkungfu/php-queue": "^0.9.1",
     "influxdb/influxdb-php": "dev-master"
 
     ,"linkorb/etcd-php":"*",
@@ -54,7 +53,17 @@
 
     , "chrisboulton/php-resque": "1.2.x",
     "monolog/monolog": "^1.17",
-    "funct/funct": "^1.0"
+    "funct/funct": "^1.0",
+
+    "coderkungfu/php-queue":"*",
+    "2tvenom/php-queue":"*",
+
+    "jsteemann/arangophp":"*",
+    "phpdr.net/php-curlmulti" : "2.*",
+
+    "eventio/bbq": "dev-master",
+    "league/tactician": "^1.0"
+
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "*",
@@ -67,6 +76,6 @@
     "codegyre/robo": "*"
   },
 
-  "minimum-stability": "alpha",
+  "minimum-stability": "dev",
   "prefer-stable": true
 }

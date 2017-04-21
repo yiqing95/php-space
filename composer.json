@@ -13,14 +13,22 @@
     {
       "type":"vcs",
       "url":"https://github.com/lovenunu/sql-runner"
+    },
+
+    {
+      "type": "pear",
+      "url": "http://pear.php.net"
+    },
+    {
+      "type": "pear",
+      "url": "http://pear.horde.org"
     }
   ],
 
   "config": {
     "bin-dir": "bin/"
-  },
-  "require-dev": {
-    "behat/behat": "~2.5"
+
+    ,"secure-http":false
   },
 
   "require": {
@@ -58,12 +66,13 @@
     "coderkungfu/php-queue":"*",
     "2tvenom/php-queue":"*",
 
-    "jsteemann/arangophp":"*",
     "phpdr.net/php-curlmulti" : "2.*",
 
     "eventio/bbq": "dev-master",
     "league/tactician": "^1.0"
 
+    , "pear-pear.php.net/PEAR": "*"
+    ,"pear-pear.horde.org/Horde_SyncMl": "*"
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "*",
@@ -74,6 +83,8 @@
     "codeception/verify": "*",
 
     "codegyre/robo": "*"
+
+    ,  "behat/behat": "~2.5"
   },
 
   "minimum-stability": "dev",
